@@ -1,3 +1,4 @@
+# Write a python function to print first N odd natural numbers. 
 def natural(n):
     print("The first ",n," even natural numbers are :")
     i,c=1,1
