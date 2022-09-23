@@ -1,4 +1,12 @@
-# Write a python script to calculate length of the string. String is given by user.
+# Write a python script to count vowels in the given string.
 
-str = input("Enter a string: ")
-print(len(str))
+vowels = 'aeiouAEIOU'
+string = "Hi, I love to eat ice cream"
+
+string = string.casefold()
+count = {}.fromkeys(vowels, 0)
+for character in string:
+    if character in count:
+        count[character] += 1   
+
+print(count))
